@@ -45,3 +45,19 @@ Implement feature selection techniques to identify relevant and informative feat
 Perform feature engineering to create new features that capture underlying patterns and relationships in the data.
 Consider domain knowledge and expert insights to guide data cleaning and preparation decisions.
 Document the data cleaning and preparation process for transparency and reproducibility.
+
+Acceptance Criteria
+
+The deliverable for this task is a Python notebook or script that does the following:
+
+Loads the input CSV file successfully
+Outputs summary statistics on input data including distribution, datatypes, outliers etc
+Detects and handles missing values appropriately
+Identifies and removes duplicate data points
+Checks data integrity and formats, correcting where needed
+Encodes categorical variables properly into numerical formats
+Normalizes or standardizes numerical variables
+Generates at least 2 new features by combining or deriving input data attributes
+Outputs cleaned dataset in easy to use format like CSV
+Includes summary report of corrections and modifications made
+Runs without errors or failures for final approval and signoff
